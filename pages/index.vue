@@ -2,10 +2,10 @@
   <div class="bg-wave-sand">
     <!-- Hero Section -->
     <div class="relative min-h-[600px]">
-      <UnsplashImage
-        url="http://wave-city.tybe-media.com/wp-content/uploads/2025/02/J68A1453-scaled.jpg"
+      <img
+        src="~/assets/Wave-Header.jpg"
         alt="Beautiful beach waves"
-        className="absolute inset-0 w-full h-full object-cover"
+        class="absolute inset-0 w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center">
         <div class="max-w-4xl px-4 sm:px-6 lg:px-8">
@@ -163,7 +163,7 @@
           <div class="relative">
             <div class="absolute inset-0 bg-gradient-to-br from-wave-ocean to-transparent opacity-10 rounded-3xl"></div>
             <img 
-              src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Burger3.jpg"
+              src="~/assets/Wave_Burger3.jpg"
               alt="Delicious burger" 
               class="w-full h-[600px] object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
@@ -229,7 +229,7 @@
           <div class="relative order-2 lg:order-1">
             <div class="absolute inset-0 bg-gradient-to-br from-wave-ocean to-transparent opacity-10 rounded-3xl"></div>
             <img 
-              src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Cocktails3.jpg"
+              src="~/assets/Wave_Cocktails3.jpg"
               alt="Tropical cocktails" 
               class="w-full h-[600px] object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
@@ -421,14 +421,14 @@
               <div class="space-y-3 sm:space-y-4">
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Catering2.jpg"
+                   src="~/assets/Wave-Gallery1.jpg"
                     alt="Beach wedding setup" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Cocktails2.jpg"
+                  src="~/assets/Wave-Gallery-2.jpg" 
                     alt="Restaurant terrace" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
@@ -437,14 +437,14 @@
               <div class="space-y-3 sm:space-y-4 mt-6 sm:mt-8">
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Sunny.jpg"
+                  src="~/assets/Wave-Gallery-3.jpg" 
                     alt="Karaoke bar" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Fruehstueck3.jpg"
+                  src="~/assets/Wave-Gallery-4.jpg" 
                     alt="Restaurant terrace" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
@@ -467,51 +467,6 @@
       </div>
     </section>
 
-    <!-- Instagram Feed Section -->
-    <section class="relative bg-wave-sand py-16">
-      <WavePattern position="top" color="#4FD1C5" />
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-bold text-wave-dark text-center mb-12">Follow Us on Instagram</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
-            <UnsplashImage
-              url="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop"
-              alt="Beautiful beach sunset"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
-            <UnsplashImage
-              url="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?q=80&w=2070&auto=format&fit=crop"
-              alt="Beachside dining"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
-            <UnsplashImage
-              url="https://images.unsplash.com/photo-1460306855393-0410f61241c7?q=80&w=2073&auto=format&fit=crop"
-              alt="Ocean waves"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
-            <UnsplashImage
-              url="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop"
-              alt="Food plating"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </div>
-      <WavePattern position="bottom" color="#4FD1C5" />
-      <!-- Wave transition to footer -->
-      <div class="absolute bottom-0 left-0 right-0">
-        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-32">
-          <path d="M0,120 C240,90 480,40 720,60 C960,80 1200,100 1440,90 L1440,120 L0,120 Z" fill="#F5E6DA"/>
-          <path d="M0,120 C240,100 480,60 720,75 C960,90 1200,110 1440,100 L1440,120 L0,120 Z" fill="#F5E6DA" fill-opacity="0.5"/>
-        </svg>
-      </div>
-    </section>
   </div>
 </template>
 
