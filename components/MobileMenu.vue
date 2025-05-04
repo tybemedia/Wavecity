@@ -5,28 +5,26 @@
       class="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-white hover:text-wave-gold hover:bg-wave-dark focus:outline-none"
     >
       <span class="sr-only">Open main menu</span>
-      <svg
-        class="h-8 w-8"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          v-if="!isOpen"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16"
-        />
-        <path
-          v-else
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M6 18L18 6M6 6l12 12"
-        />
-      </svg>
+      <div class="relative w-6 h-6">
+        <div
+          :class="[
+            'absolute w-6 h-0.5 bg-current transform transition-all duration-300',
+            isOpen ? 'rotate-45 translate-y-0 top-3' : 'top-2'
+          ]"
+        ></div>
+        <div
+          :class="[
+            'absolute w-6 h-0.5 bg-current top-3 transition-opacity duration-300',
+            isOpen ? 'opacity-0' : 'opacity-100'
+          ]"
+        ></div>
+        <div
+          :class="[
+            'absolute w-6 h-0.5 bg-current transform transition-all duration-300',
+            isOpen ? '-rotate-45 translate-y-0 top-3' : 'top-4'
+          ]"
+        ></div>
+      </div>
     </button>
 
     <transition

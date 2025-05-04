@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <div class="relative min-h-[600px]">
       <UnsplashImage
-        url="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=1715&auto=format&fit=crop"
+        url="http://wave-city.tybe-media.com/wp-content/uploads/2025/02/J68A1453-scaled.jpg"
         alt="Beautiful beach waves"
         className="absolute inset-0 w-full h-full object-cover"
       />
@@ -30,7 +30,26 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <span>Find a Location</span>
+              <span>Reservieren</span>
+            </div>
+          </button>
+          <button class="relative group">
+            <div class="absolute inset-0 w-full h-full">
+              <svg viewBox="0 0 300 80" class="w-full h-full">
+                <!-- Surfboard shape -->
+                <path d="M20,40 C20,15 40,5 80,5 L220,5 C260,5 280,15 280,40 C280,65 260,75 220,75 L80,75 C40,75 20,65 20,40" 
+                      class="fill-wave-ocean transition-all duration-300 group-hover:fill-wave-gold" />
+                <!-- Surfboard stripe -->
+                <path d="M70,40 L230,40" 
+                      stroke="white" stroke-width="2" stroke-opacity="0.3" />
+              </svg>
+            </div>
+            <div class="relative px-10 py-4 text-white font-bold text-lg flex items-center justify-center space-x-3">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span>Zur Speisekarte</span>
             </div>
           </button>
         </div>
@@ -65,21 +84,20 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div class="text-center mb-16">
           <div class="inline-block relative">
-            <!-- Animated burger icon -->
+            <!-- New simplified burger icon -->
             <div class="relative w-24 h-24 animate-float-slow">
               <svg class="w-full h-full text-wave-gold" viewBox="0 0 100 100" fill="currentColor">
                 <!-- Top bun -->
-                <path class="animate-wave" d="M20,35 C20,25 30,15 50,15 C70,15 80,25 80,35 C80,45 70,45 50,45 C30,45 20,45 20,35" />
+                <path d="M25,30 C25,20 35,15 50,15 C65,15 75,20 75,30 C75,35 65,38 50,38 C35,38 25,35 25,30" />
                 <!-- Lettuce -->
-                <path class="animate-wave" fill="#2F7A4D" d="M15,45 C15,45 25,42 35,44 C45,46 55,43 65,45 C75,47 85,45 85,45 L85,50 L15,50" />
+                <path fill="#2F7A4D" d="M20,38 C20,38 35,42 50,42 C65,42 80,38 80,38 L80,48 C80,48 65,52 50,52 C35,52 20,48 20,48" />
                 <!-- Patty -->
-                <path d="M15,50 C15,50 30,55 50,55 C70,55 85,50 85,50 L85,60 C85,60 70,65 50,65 C30,65 15,60 15,60" />
+                <path d="M20,48 C20,48 35,52 50,52 C65,52 80,48 80,48 L80,58 C80,58 65,62 50,62 C35,62 20,58 20,58" />
                 <!-- Bottom bun -->
-                <path class="animate-wave" d="M20,75 C20,65 30,60 50,60 C70,60 80,65 80,75 C80,85 70,85 50,85 C30,85 20,85 20,75" />
+                <path d="M25,70 C25,60 35,58 50,58 C65,58 75,60 75,70 C75,75 65,78 50,78 C35,78 25,75 25,70" />
               </svg>
-              <!-- Decorative splashes -->
-              <div class="absolute -right-2 -top-2 w-6 h-6 bg-wave-gold rounded-full opacity-30 animate-splash"></div>
-              <div class="absolute -left-2 -bottom-2 w-4 h-4 bg-wave-gold rounded-full opacity-30 animate-splash"></div>
+              <div class="absolute -right-2 -top-2 w-6 h-6 bg-wave-gold rounded-full opacity-30 animate-pulse"></div>
+              <div class="absolute -left-2 -bottom-2 w-4 h-4 bg-wave-gold rounded-full opacity-30 animate-pulse"></div>
             </div>
           </div>
           <h2 class="text-wave-gold text-5xl font-semibold mt-6">Unsere Lieblingsspeisen</h2>
@@ -145,7 +163,7 @@
           <div class="relative">
             <div class="absolute inset-0 bg-gradient-to-br from-wave-ocean to-transparent opacity-10 rounded-3xl"></div>
             <img 
-              src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?q=80&w=2069&auto=format&fit=crop"
+              src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Burger3.jpg"
               alt="Delicious burger" 
               class="w-full h-[600px] object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
@@ -211,7 +229,7 @@
           <div class="relative order-2 lg:order-1">
             <div class="absolute inset-0 bg-gradient-to-br from-wave-ocean to-transparent opacity-10 rounded-3xl"></div>
             <img 
-              src="https://images.unsplash.com/photo-1536935338788-846bb9981813?q=80&w=2072&auto=format&fit=crop"
+              src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Cocktails3.jpg"
               alt="Tropical cocktails" 
               class="w-full h-[600px] object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
@@ -291,18 +309,51 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div class="text-center mb-16">
           <div class="inline-block relative">
-            <!-- Animated surfboard icon -->
-            <div class="relative w-24 h-24 animate-surf">
-              <svg class="w-full h-full text-wave-gold" viewBox="0 0 100 100" fill="currentColor">
-                <path d="M20,50 C20,30 30,20 50,20 C70,20 80,30 80,50 C80,70 70,80 50,80 C30,80 20,70 20,50" />
-                <!-- Stripe -->
-                <path d="M35,50 L65,50" stroke="white" stroke-width="4"/>
-                <!-- Wave decoration -->
-                <path class="animate-wave" d="M25,45 C35,42 45,48 55,45 C65,42 75,48 85,45" fill="none" stroke="white" stroke-width="2"/>
+            <!-- Animated location pin icon -->
+            <div class="relative w-24 h-24 animate-float-slow">
+              <svg class="w-full h-full text-wave-gold" viewBox="0 0 100 100" fill="none" stroke="currentColor">
+                <!-- Main pin shape -->
+                <path 
+                  class="animate-pulse-slow"
+                  d="M50,15 C35,15 25,25 25,40 C25,55 50,85 50,85 C50,85 75,55 75,40 C75,25 65,15 50,15"
+                  stroke-width="4"
+                  fill="currentColor"
+                  stroke="none"
+                />
+                <!-- Inner circle -->
+                <circle 
+                  cx="50" 
+                  cy="40" 
+                  r="10" 
+                  class="animate-ripple" 
+                  fill="white" 
+                  fill-opacity="0.8"
+                />
+                <!-- Ripple effect circles -->
+                <circle 
+                  cx="50" 
+                  cy="40" 
+                  r="8" 
+                  class="animate-ripple-delay-1" 
+                  fill="none" 
+                  stroke="white" 
+                  stroke-opacity="0.4" 
+                  stroke-width="2"
+                />
+                <circle 
+                  cx="50" 
+                  cy="40" 
+                  r="16" 
+                  class="animate-ripple-delay-2" 
+                  fill="none" 
+                  stroke="white" 
+                  stroke-opacity="0.2" 
+                  stroke-width="2"
+                />
               </svg>
-              <!-- Water splash effect -->
-              <div class="absolute -right-2 -top-2 w-6 h-6 bg-wave-ocean rounded-full opacity-30 animate-splash"></div>
-              <div class="absolute -left-2 -bottom-2 w-4 h-4 bg-wave-ocean rounded-full opacity-30 animate-splash"></div>
+              <!-- Decorative elements -->
+              <div class="absolute -right-2 -top-2 w-6 h-6 bg-wave-gold rounded-full opacity-30 animate-pulse"></div>
+              <div class="absolute -left-2 -bottom-2 w-4 h-4 bg-wave-gold rounded-full opacity-30 animate-pulse"></div>
             </div>
           </div>
           <h2 class="text-wave-gold text-5xl font-semibold mt-6">Unsere Location</h2>
@@ -370,14 +421,14 @@
               <div class="space-y-3 sm:space-y-4">
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop"
+                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Catering2.jpg"
                     alt="Beach wedding setup" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1533174077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop"
+                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Cocktails2.jpg"
                     alt="Restaurant terrace" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
@@ -386,14 +437,14 @@
               <div class="space-y-3 sm:space-y-4 mt-6 sm:mt-8">
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1561912774-79769a0a0a7a?q=80&w=1935&auto=format&fit=crop"
+                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Sunny.jpg"
                     alt="Karaoke bar" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div class="relative rounded-xl sm:rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop"
+                    src="http://wave-city.tybe-media.com/wp-content/uploads/2024/12/Wave_Fruehstueck3.jpg"
                     alt="Restaurant terrace" 
                     class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                   />
@@ -624,6 +675,45 @@ h1, h2, h3 {
   }
   50% {
     transform: rotate(15deg);
+  }
+}
+
+/* Add these new animations */
+.animate-ripple {
+  animation: ripple 2s ease-out infinite;
+}
+
+.animate-ripple-delay-1 {
+  animation: ripple 2s ease-out infinite;
+  animation-delay: 0.5s;
+}
+
+.animate-ripple-delay-2 {
+  animation: ripple 2s ease-out infinite;
+  animation-delay: 1s;
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 3s ease-in-out infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
   }
 }
 </style> 
