@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts'
   ],
+  nitro: {
+    prerender: {
+      failOnError: false
+    }
+  },
   app: {
     head: {
       title: 'Wavecity - Fine Burgers & Drinks',

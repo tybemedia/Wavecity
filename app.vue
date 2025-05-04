@@ -10,11 +10,7 @@
               </NuxtLink>
             </div>
             <div class="hidden sm:ml-10 sm:flex sm:space-x-12">
-              <NuxtLink to="/locations" class="nav-link">LOCATIONS</NuxtLink>
-              <NuxtLink to="/menus" class="nav-link">MENUS</NuxtLink>
-              <NuxtLink to="/rewards" class="nav-link">REWARDS</NuxtLink>
-              <NuxtLink to="/careers" class="nav-link">CAREERS</NuxtLink>
-              <NuxtLink to="/gift-cards" class="nav-link">GIFT CARDS</NuxtLink>
+
             </div>
           </div>
           <div class="flex items-center">
@@ -46,19 +42,13 @@
           <div>
             <h3 class="text-lg font-semibold mb-4">About</h3>
             <ul class="space-y-2">
-              <li><NuxtLink to="/about" class="text-wave-teal hover:text-white transition-colors">About Wavecity</NuxtLink></li>
-              <li><NuxtLink to="/contact" class="text-wave-teal hover:text-white transition-colors">Talk to Us</NuxtLink></li>
-              <li><NuxtLink to="/careers" class="text-wave-teal hover:text-white transition-colors">Join the Team</NuxtLink></li>
-              <li><NuxtLink to="/community" class="text-wave-teal hover:text-white transition-colors">In The Community</NuxtLink></li>
+            
             </ul>
           </div>
           <div>
             <h3 class="text-lg font-semibold mb-4">Legal</h3>
             <ul class="space-y-2">
-              <li><NuxtLink to="/terms" class="text-wave-teal hover:text-white transition-colors">Terms & Conditions</NuxtLink></li>
-              <li><NuxtLink to="/privacy" class="text-wave-teal hover:text-white transition-colors">Privacy Policy</NuxtLink></li>
-              <li><NuxtLink to="/accessibility" class="text-wave-teal hover:text-white transition-colors">Accessibility</NuxtLink></li>
-              <li><NuxtLink to="/sitemap" class="text-wave-teal hover:text-white transition-colors">Sitemap</NuxtLink></li>
+              
             </ul>
           </div>
           <div>

@@ -45,7 +45,7 @@
     </div>
 
     <!-- Remove entire Specials Section and go straight to Lieblingsspeisen -->
-    <section class="relative bg-wave-sand py-24 overflow-hidden">
+    <section class="relative bg-wave-sand py-32 overflow-hidden">
       <div class="absolute inset-0 pointer-events-none">
         <!-- Palm trees and decorative elements -->
         <div class="absolute -left-20 top-0 opacity-30">
@@ -171,7 +171,7 @@
     </section>
 
     <!-- Unsere Lieblingsdrinks Section -->
-    <section class="relative bg-[#2B4D6F] py-16 sm:py-20 overflow-hidden">
+    <section class="relative bg-[#2B4D6F] py-16 sm:py-32 overflow-hidden">
       <div class="absolute inset-0 pointer-events-none">
         <!-- Bubble animations -->
         <div class="absolute inset-0">
@@ -410,8 +410,8 @@
       <!-- Wave transition to next section -->
       <div class="absolute bottom-0 left-0 right-0">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-32">
-          <path d="M0,120 C240,90 480,40 720,60 C960,80 1200,100 1440,90 L1440,120 L0,120 Z" fill="white"/>
-          <path d="M0,120 C240,100 480,60 720,75 C960,90 1200,110 1440,100 L1440,120 L0,120 Z" fill="white" fill-opacity="0.5"/>
+          <path d="M0,120 C240,90 480,40 720,60 C960,80 1200,100 1440,90 L1440,120 L0,120 Z" fill="#F5E6DA"/>
+          <path d="M0,120 C240,100 480,60 720,75 C960,90 1200,110 1440,100 L1440,120 L0,120 Z" fill="#F5E6DA" fill-opacity="0.5"/>
         </svg>
       </div>
     </section>
