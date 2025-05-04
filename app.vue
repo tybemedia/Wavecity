@@ -1,11 +1,11 @@
 <template>
   <div class="min-h-screen bg-white">
-    <header class="fixed w-full bg-wave-teal z-50">
+    <header class="fixed w-full z-50 backdrop-blur-sm bg-white bg-opacity-95 shadow-lg transition-all duration-300">
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-20">
           <div class="flex">
             <div class="flex-shrink-0 flex items-center">
-              <NuxtLink to="/" class="text-3xl font-bold text-white flex items-center">
+              <NuxtLink to="/" class="text-3xl font-bold text-wave-dark flex items-center">
                 <img src="/images/Wave-Logo.svg" alt="Wavecity" class="h-16 w-auto" />
               </NuxtLink>
             </div>
@@ -69,10 +69,41 @@
 
 <script setup>
 import MobileMenu from '~/components/MobileMenu.vue'
+import { onMounted, onUnmounted } from 'vue'
+
+// Add scroll behavior
+const handleScroll = () => {
+  const header = document.querySelector('header')
+  if (window.scrollY > 0) {
+    header.classList.add('header-scroll')
+  } else {
+    header.classList.remove('header-scroll')
+  }
+}
+
+// Add scroll event listener
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+// Clean up event listener
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <style>
 .nav-link {
   @apply inline-flex items-center px-1 pt-1 text-lg font-bold text-white hover:text-wave-gold transition-colors uppercase tracking-wider;
+}
+
+/* Add these styles to handle scroll behavior */
+.header-scroll {
+  @apply shadow-lg bg-white bg-opacity-95;
+}
+
+/* Optional: Add smooth transition for background color change on scroll */
+header {
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 </style>
