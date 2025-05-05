@@ -120,10 +120,9 @@ import { ref } from 'vue'
 const isOpen = ref(false)
 
 const menuItems = [
-  { name: 'Locations', href: '/locations' },
-  { name: 'Menus', href: '/menus' },
-  { name: 'Rewards', href: '/rewards' },
-  { name: 'Careers', href: '/careers' },
-  { name: 'Gift Cards', href: '/gift-cards' },
+  { name: 'Speisekarte', href: '/speisekarte' },
+  { name: 'Online Bestellen', href: '/online-bestellen' },
+  { name: 'Tisch reservieren', href: '/reservieren' },
+  { name: 'Events', href: '/events' },
 ]
 </script> 
