@@ -85,29 +85,7 @@
               </nav>
             </div>
           </div>
-          <div class="py-6 px-5">
-            <button
-              class="relative group w-full"
-              @click="isOpen = false"
-            >
-              <div class="absolute inset-0 w-full h-full">
-                <svg viewBox="0 0 300 80" class="w-full h-full">
-                  <!-- Surfboard shape -->
-                  <path d="M20,40 C20,15 40,5 80,5 L220,5 C260,5 280,15 280,40 C280,65 260,75 220,75 L80,75 C40,75 20,65 20,40" 
-                        class="fill-wave-ocean transition-all duration-300 group-hover:fill-wave-gold" />
-                  <!-- Surfboard stripe -->
-                  <path d="M70,40 L230,40" 
-                        stroke="white" stroke-width="2" stroke-opacity="0.3" />
-                </svg>
-              </div>
-              <div class="relative px-10 py-4 text-white font-bold text-lg flex items-center justify-center space-x-3">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                </svg>
-                <span>Order Online</span>
-              </div>
-            </button>
-          </div>
+         
         </div>
       </div>
     </transition>
@@ -120,9 +98,9 @@ import { ref } from 'vue'
 const isOpen = ref(false)
 
 const menuItems = [
-  { name: 'Speisekarte', href: '/speisekarte' },
-  { name: 'Online Bestellen', href: '/online-bestellen' },
-  { name: 'Tisch reservieren', href: '/reservieren' },
+  { name: 'Speisekarte', href: 'http://wavecity-kitchenbar.de/Speisekarte', target:'_blank'},
+  { name: 'Online Bestellen', href: 'https://igetnow.com/79JM1' },
+  { name: 'Tisch reservieren', href: 'https://www.opentable.de/r/wavecity-kitchen-and-bar-hamburg' },
   { name: 'Events', href: '/events' },
 ]
 </script> 
