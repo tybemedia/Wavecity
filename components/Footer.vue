@@ -41,12 +41,6 @@
             <NuxtLink to="/impressum" class="px-4 py-2 text-gray-300 hover:text-wave-gold transition-colors border border-gray-700 rounded-lg hover:border-wave-gold">
               Impressum
             </NuxtLink>
-            <NuxtLink to="/datenschutz" class="px-4 py-2 text-gray-300 hover:text-wave-gold transition-colors border border-gray-700 rounded-lg hover:border-wave-gold">
-              Datenschutz
-            </NuxtLink>
-            <NuxtLink to="/agb" class="px-4 py-2 text-gray-300 hover:text-wave-gold transition-colors border border-gray-700 rounded-lg hover:border-wave-gold">
-              AGB
-            </NuxtLink>
           </div>
         </div>
       </div>

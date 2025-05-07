@@ -24,15 +24,8 @@
             </NuxtLink>
           </div>
 
-          <!-- Order Button & Mobile Menu -->
+          <!-- Mobile Menu Button -->
           <div class="flex items-center space-x-4">
-            <button class="hidden md:flex items-center px-6 py-3 bg-[rgb(79,166,179)] text-white font-semibold rounded-lg hover:bg-wave-dark transition-all duration-300 transform hover:scale-105 border border-transparent hover:border-wave-gold shadow-md">
-              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-              </svg>
-              ORDER ONLINE
-            </button>
-            <!-- Mobile menu button -->
             <button 
               @click="isMenuOpen = true" 
               class="md:hidden text-[rgb(79,166,179)] hover:text-wave-dark p-2 rounded-lg border border-gray-200 hover:border-[rgb(79,166,179)] transition-all duration-300"
@@ -100,19 +93,6 @@
               </NuxtLink>
             </transition-group>
           </div>
-
-          <!-- Menu footer -->
-          <div class="py-8 flex justify-center">
-            <button 
-              class="bg-[rgb(79,166,179)] text-white font-semibold rounded-lg px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center space-x-3 hover:bg-wave-dark border border-transparent hover:border-wave-gold shadow-md"
-              @click="isMenuOpen = false"
-            >
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-              </svg>
-              <span>ORDER ONLINE</span>
-            </button>
-          </div>
         </div>
       </div>
     </transition>
@@ -133,10 +113,11 @@ import Footer from '~/components/Footer.vue'
 const isMenuOpen = ref(false)
 
 const menuItems = [
-  { name: 'Speisekarte', href: '/speisekarte' },
-  { name: 'Online Bestellen', href: 'https://igetnow.com/menu' },
+  { name: 'Home', href: '/' },
+  { name: 'Speisekarte', href: '/Speisekarte.pdf' },
   { name: 'Tisch reservieren', href: 'https://www.opentable.de/r/wavecity-kitchen-and-bar-hamburg' },
-  { name: 'Events', href: '/#events' }
+  { name: 'Events', href: '/#events' },
+  { name: 'Kontakt', href: '/#kontakt' },
 ]
 
 // Add scroll behavior

@@ -71,18 +71,19 @@
 
     <!-- Remove entire Specials Section and go straight to Lieblingsspeisen -->
     <section class="relative bg-gradient-to-b from-wave-sand to-wave-ocean/10 py-32 overflow-hidden">
-      <!-- Decorative beach elements -->
+      <!-- Decorative food elements -->
       <div class="absolute inset-0 overflow-hidden">
-        <!-- Animated palm trees -->
-        <div class="absolute -right-16 -top-10 w-64 h-64 text-wave-palm opacity-10 transform rotate-12 animate-sway">
-          <svg viewBox="0 0 100 100" fill="currentColor">
-            <path d="M50,90 L53,40 C53,40 65,38 70,25 C75,12 60,5 60,5 C60,5 55,15 50,18 C45,15 40,5 40,5 C40,5 25,12 30,25 C35,38 47,40 47,40 L50,90 Z"/>
-          </svg>
+        <!-- Animated burger icon -->
+        <div class="absolute -right-16 -top-10 w-64 h-64 text-wave-palm opacity-10 transform rotate-12 animate-sway hidden md:block">
+          <img src="~/assets/burger (1).svg" alt="Burger icon" class="w-full h-full" />
         </div>
+        <!-- Animated fries icon -->
         <div class="absolute left-10 top-20 w-48 h-48 text-wave-palm opacity-10 transform -rotate-12 animate-sway-delay">
-          <svg viewBox="0 0 100 100" fill="currentColor">
-            <path d="M50,90 L53,40 C53,40 65,38 70,25 C75,12 60,5 60,5 C60,5 55,15 50,18 C45,15 40,5 40,5 C40,5 25,12 30,25 C35,38 47,40 47,40 L50,90 Z"/>
-          </svg>
+          <img src="~/assets/fried-potatoes.svg" alt="Fries icon" class="w-full h-full" />
+        </div>
+        <!-- Animated salad icon -->
+        <div class="absolute right-20 bottom-10 w-40 h-40 text-wave-palm opacity-10 transform rotate-45 animate-sway">
+          <img src="~/assets/salad.svg" alt="Salad icon" class="w-full h-full" />
         </div>
       </div>
 
@@ -128,11 +129,11 @@
 
             <!-- Speisekarte Button -->
             <div class="mt-12 text-center">
-              <a href="https://igetnow.com/menu" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto bg-wave-ocean hover:bg-wave-dark text-white font-bold rounded-full px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3 animate-on-scroll fade-up ease-bounce mx-auto">
+              <a href="/Speisekarte.pdf" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto bg-wave-ocean hover:bg-wave-dark text-white font-bold rounded-full px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3 animate-on-scroll fade-up ease-bounce mx-auto">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
-                <span>Jetzt Bestellen</span>
+                <span>Zur Speisekarte</span>
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
@@ -169,16 +170,17 @@
     <section class="relative bg-gradient-to-b from-[#1A237E] to-white py-32 overflow-hidden">
       <!-- Decorative cocktail elements -->
       <div class="absolute inset-0 overflow-hidden mix-blend-soft-light">
-        <!-- Animated cocktail glasses -->
+        <!-- Animated drink glass -->
         <div class="absolute -right-16 top-20 w-48 h-48 text-white opacity-30 transform rotate-12 animate-float-slow">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M7,3V11H17V3H7M11,13V21H13V13H11Z" />
-          </svg>
+          <img src="~/assets/drink.svg" alt="Drink glass icon" class="w-full h-full" />
         </div>
+        <!-- Animated cheers icon -->
         <div class="absolute left-10 top-40 w-32 h-32 text-white opacity-30 transform -rotate-12 animate-float-delay">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M7,3V11H17V3H7M11,13V21H13V13H11Z" />
-          </svg>
+          <img src="~/assets/cheers.svg" alt="Cheers icon" class="w-full h-full" />
+        </div>
+        <!-- Animated burger icon (as a backup) -->
+        <div class="absolute right-20 bottom-10 w-40 h-40 text-white opacity-30 transform rotate-45 animate-float-slow">
+          <img src="~/assets/burger (1) copy.svg" alt="Burger icon" class="w-full h-full" />
         </div>
       </div>
 
@@ -248,7 +250,7 @@
             <div class="space-y-4">
               <div class="relative rounded-2xl overflow-hidden aspect-square shadow-xl group animate-on-scroll zoom-in">
                 <img 
-                  src="~/assets/Wave_Cocktails3.jpg"
+                  src="~/assets/J68A9289.jpg"
                   alt="Tropical cocktail" 
                   class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
@@ -256,7 +258,7 @@
               </div>
               <div class="relative rounded-2xl overflow-hidden aspect-square shadow-xl group animate-on-scroll zoom-in duration-slow">
                 <img 
-                 src="~/assets/Wave_Cocktails3.jpg"
+                 src="~/assets/J68A9498.jpg"
                   alt="Refreshing drink" 
                   class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
@@ -274,7 +276,7 @@
               </div>
               <div class="relative rounded-2xl overflow-hidden aspect-square shadow-xl group animate-on-scroll zoom-in">
                 <img 
-                 src="~/assets/Wave_Cocktails3.jpg"
+                 src="~/assets/J68A9218.jpg"
                   alt="Beach cocktail" 
                   class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
@@ -344,7 +346,7 @@
 
             <!-- Events Section -->
             <div class="space-y-4 animate-on-scroll fade-left delay-200">
-              <h3 class="text-[rgb(79,166,179)] text-2xl font-semibold">Events & Feiern</h3>
+              <h3 class="text-[rgb(79,166,179)] text-2xl font-semibold font-retro">Events & Feiern</h3>
               <p class="text-wave-dark/80 text-lg leading-relaxed">
                 Ob Geburtstage, Hochzeiten oder Firmenevents – unsere Location bietet den perfekten Rahmen für Ihre besonderen Momente. Mit unserer großzügigen Terrasse und dem einzigartigen Ambiente schaffen wir unvergessliche Erinnerungen.
               </p>
@@ -352,7 +354,7 @@
 
             <!-- Minibar Section -->
             <div class="space-y-4 animate-on-scroll fade-left delay-300">
-              <h3 class="text-[rgb(79,166,179)] text-2xl font-semibold">Minibar & Karaoke</h3>
+              <h3 class="text-[rgb(79,166,179)] text-2xl font-semibold font-retro">Minibar & Karaoke</h3>
               <p class="text-wave-dark/80 text-lg leading-relaxed">
                 Entdecken Sie unsere "Minibar" – die Karaoke-Bar direkt neben der WaveCity Kitchenbar. Der perfekte Ort für kleinere Gruppen und besondere Anlässe mit Entertainment-Faktor.
               </p>

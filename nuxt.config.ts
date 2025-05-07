@@ -30,5 +30,7 @@ export default defineNuxtConfig({
       'Montserrat': [400, 600, 700]
     },
     display: 'swap'
-  }
+  },
+  // Enable static site generation
+  ssr: true
 })
