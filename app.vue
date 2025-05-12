@@ -6,7 +6,7 @@
           <!-- Logo -->
           <div class="flex-shrink-0">
             <NuxtLink to="/" class="text-3xl font-bold text-wave-dark flex items-center">
-              <img src="/images/Wave-Logo.svg" alt="Wavecity" class="h-16 w-auto" />
+              <img src="/images/WaveCity_Logo.svg" alt="Wavecity" class="h-16 w-auto" />
             </NuxtLink>
           </div>
 
@@ -57,7 +57,7 @@
               class="text-3xl font-bold text-wave-dark flex items-center"
               @click="isMenuOpen = false"
             >
-              <img src="/images/Wave-Logo.svg" alt="Wavecity" class="h-16 w-auto" />
+              <img src="/images/WaveCity_Logo.svg" alt="Wavecity" class="h-16 w-auto" />
             </NuxtLink>
             <button 
               @click="isMenuOpen = false"

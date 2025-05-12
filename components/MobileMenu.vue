@@ -44,7 +44,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <NuxtLink to="/" class="text-2xl font-bold text-white flex items-center" @click="isOpen = false">
-                  <img src="/images/wave-icon.svg" alt="Wave icon" class="h-8 w-8 mr-2" />
+                  <img src="/images/WaveCity_Logo.svg" alt="Wave icon" class="h-8 w-8 mr-2" />
                   Wavecity
                 </NuxtLink>
               </div>

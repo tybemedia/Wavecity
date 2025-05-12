@@ -11,7 +11,7 @@
       </div>
       <div class="absolute inset-0 flex items-center justify-center text-center">
         <div class="max-w-4xl px-4 sm:px-6 lg:px-8 animate-on-scroll">
-          <h1 class="text-4xl sm:text-6xl font-bold text-white mb-6 animate-on-scroll fade-down ease-elastic">Taste the difference</h1>
+          <h1 class="text-4xl sm:text-6xl font-bold text-white mb-6 animate-on-scroll fade-down ease-elastic" style="text-shadow: -3px -3px 0 rgb(79,166,179), 3px -3px 0 rgb(79,166,179), -3px 3px 0 rgb(79,166,179), 3px 3px 0 rgb(79,166,179), -2px -2px 0 rgb(79,166,179), 2px -2px 0 rgb(79,166,179), -2px 2px 0 rgb(79,166,179), 2px 2px 0 rgb(79,166,179), -1px -1px 0 rgb(79,166,179), 1px -1px 0 rgb(79,166,179), -1px 1px 0 rgb(79,166,179), 1px 1px 0 rgb(79,166,179);">Taste the difference</h1>
           <p class="text-xl sm:text-2xl text-white mb-8 animate-on-scroll fade-up">
             Ein Ort, an dem kulinarischer Genuss, ein Blick auf das Wasser und eine stimmungsvolle Atmosphäre zu einem unvergesslichen Erlebnis verschmelzen.
           </p>
