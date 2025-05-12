@@ -98,7 +98,7 @@ import { ref } from 'vue'
 const isOpen = ref(false)
 
 const menuItems = [
-  { name: 'Speisekarte', href: 'http://wavecity-kitchenbar.de/Speisekarte', target:'_blank'},
+  { name: 'Speisekarte', href: 'https://igetnow.com/79JM1', target:'_blank'},
   { name: 'Online Bestellen', href: 'https://igetnow.com/79JM1' },
   { name: 'Tisch reservieren', href: 'https://www.opentable.de/r/wavecity-kitchen-and-bar-hamburg' },
   { name: 'Events', href: '/events' },

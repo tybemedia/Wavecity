@@ -113,8 +113,7 @@ import Footer from '~/components/Footer.vue'
 const isMenuOpen = ref(false)
 
 const menuItems = [
-  { name: 'Home', href: '/' },
-  { name: 'Speisekarte', href: 'http://wavecity-kitchenbar.de/Speisekarte' },
+  { name: 'Speisekarte', href: 'https://igetnow.com/79JM1' },
   { name: 'Tisch reservieren', href: 'https://www.opentable.de/r/wavecity-kitchen-and-bar-hamburg' },
   { name: 'Online bestellen', href: 'https://igetnow.com/79JM1' },
   { name: 'Events', href: '/#events' },

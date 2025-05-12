@@ -52,7 +52,7 @@
                       stroke="white" stroke-width="2" stroke-opacity="0.3" />
               </svg>
             </div>
-            <a href="/Speisekarte.pdf" target="_blank" class="relative px-10 py-4 text-white font-bold text-lg flex items-center justify-center space-x-3">
+            <a href="https://igetnow.com/79JM1" target="_blank" class="relative px-10 py-4 text-white font-bold text-lg flex items-center justify-center space-x-3">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
@@ -129,7 +129,7 @@
 
             <!-- Speisekarte Button -->
             <div class="mt-12 text-center">
-              <a href="/Speisekarte.pdf" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto bg-wave-ocean hover:bg-wave-dark text-white font-bold rounded-full px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3 animate-on-scroll fade-up ease-bounce mx-auto">
+              <a href="https://igetnow.com/79JM1" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto bg-wave-ocean hover:bg-wave-dark text-white font-bold rounded-full px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3 animate-on-scroll fade-up ease-bounce mx-auto">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -233,7 +233,7 @@
 
             <!-- Getränkekarte Button -->
             <div class="mt-12 text-center">
-              <a href="/Speisekarte.pdf" target="_blank" class="group w-full sm:w-auto bg-[rgb(79,166,179)] hover:bg-[#1A237E] text-white font-bold rounded-full px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3 shadow-lg animate-on-scroll fade-up ease-bounce mx-auto">
+              <a href="https://igetnow.com/79JM1" target="_blank" class="group w-full sm:w-auto bg-[rgb(79,166,179)] hover:bg-[#1A237E] text-white font-bold rounded-full px-8 py-4 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3 shadow-lg animate-on-scroll fade-up ease-bounce mx-auto">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
@@ -349,14 +349,6 @@
               <h3 class="text-[rgb(79,166,179)] text-2xl font-semibold font-retro">Events & Feiern</h3>
               <p class="text-wave-dark/80 text-lg leading-relaxed">
                 Ob Geburtstage, Hochzeiten oder Firmenevents – unsere Location bietet den perfekten Rahmen für Ihre besonderen Momente. Mit unserer großzügigen Terrasse und dem einzigartigen Ambiente schaffen wir unvergessliche Erinnerungen.
-              </p>
-            </div>
-
-            <!-- Minibar Section -->
-            <div class="space-y-4 animate-on-scroll fade-left delay-300">
-              <h3 class="text-[rgb(79,166,179)] text-2xl font-semibold font-retro">Minibar & Karaoke</h3>
-              <p class="text-wave-dark/80 text-lg leading-relaxed">
-                Entdecken Sie unsere "Minibar" – die Karaoke-Bar direkt neben der WaveCity Kitchenbar. Der perfekte Ort für kleinere Gruppen und besondere Anlässe mit Entertainment-Faktor.
               </p>
             </div>
 
