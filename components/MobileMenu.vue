@@ -100,7 +100,7 @@ const isOpen = ref(false)
 const menuItems = [
   { name: 'Speisekarte', href: 'https://igetnow.com/79JM1', target:'_blank'},
   { name: 'Online Bestellen', href: 'https://igetnow.com/79JM1' },
-  { name: 'Tisch reservieren', href: 'https://www.opentable.de/r/wavecity-kitchen-and-bar-hamburg' },
+  { name: 'Tisch reservieren', href: 'https://app.resmio.com/wavecity-kitchenbar/widget' },
   { name: 'Events', href: '/events' },
 ]
 </script> 
