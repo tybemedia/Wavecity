@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   ],
   nitro: {
     prerender: {
+      routes: ['/'],
       failOnError: false
     }
   },
@@ -32,5 +33,11 @@ export default defineNuxtConfig({
     display: 'swap'
   },
   // Enable static site generation
-  ssr: true
+  ssr: false,
+  // Configure static site generation
+  target: 'static',
+  // Ensure all pages are pre-rendered
+  generate: {
+    fallback: true
+  }
 })
